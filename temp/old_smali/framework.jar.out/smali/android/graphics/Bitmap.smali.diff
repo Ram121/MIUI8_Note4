@@ -1,0 +1,19 @@
+*** ./smali/android/graphics/Bitmap.smali	2017-02-15 19:18:48.247229781 +0530
+--- /home/ram/MIUI8_patchROM/Note4/temp/new_smali/framework.jar.out/./smali/android/graphics/Bitmap.smali	2017-02-15 19:25:26.587740181 +0530
+***************
+*** 41,47 ****
+  
+  
+  # instance fields
+! .field private mBuffer:[B
+  
+  .field mDensity:I
+  
+--- 41,47 ----
+  
+  
+  # instance fields
+! .field public mBuffer:[B
+  
+  .field mDensity:I
+  
